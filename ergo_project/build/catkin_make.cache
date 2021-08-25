@@ -1,0 +1,2 @@
+camera_pkg:ros_astra_camera
+-DCATKIN_DEVEL_PREFIX=/home/kaushalk/ergo_project/devel -DCMAKE_INSTALL_PREFIX=/home/kaushalk/ergo_project/install -G Unix Makefiles
