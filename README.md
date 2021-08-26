@@ -51,7 +51,7 @@ You will need to clone this github repo: https://github.com/orbbec/ros_astra_cam
 
 You will also need to clone this repo to your workspace: https://github.com/vardanagarwal/Proctoring-AI
 
-Once the 'Proctoring AI' and the 'ros astra camera' repositories are cloned, the files 'RGB_raw_subscriber.py' and 'video_face2.py' will need to be moved from '/src/camera_pkg/scripts' to '/src/main/face_detection'. The file 'video_face2.py' will replace the original 'video_face.py' file in this folder.
+Once the 'Proctoring AI' and the 'ros astra camera' repositories are cloned, the files 'RGB_raw_subscriber.py' and 'video_face2.py' will need to be moved from '/src/camera_pkg/scripts' to '/src/main/face_detection'. The file 'video_face.py' in the 'scripts' folder will replace the original 'video_face.py' file in the 'face_detection' folder
 
 Use the astrapro.launch file to start the astra camera for use. Run this command in the terminal to launch the camera:
 ```
@@ -60,7 +60,7 @@ roslaunch astra_camera astrapro.launch
 
 Follow the instructions here to calibrate the camera: http://wiki.ros.org/camera_calibration/Tutorials/MonocularCalibration
 
-**To run the program, run the file 'video_face2.py'**
+**To run the program, run the file 'video_face.py' after moving it from the 'scripts' folder**
 
 
 
