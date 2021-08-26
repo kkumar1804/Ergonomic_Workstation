@@ -48,6 +48,7 @@ The aim of this project is to help people who are struggling with back and neck 
 **Using the Astra Camera:**
 
 You will need to clone this github repo: https://github.com/orbbec/ros_astra_camera
+
 You will also need to clone this repo to your workspace: https://github.com/vardanagarwal/Proctoring-AI
 
 Once the 'Proctoring AI' and the 'ros astra camera' repositories are cloned, the files 'RGB_raw_subscriber.py' and 'video_face2.py' will need to be moved from '/src/camera_pkg/scripts' to '/src/main/face_detection'. The file 'video_face2.py' will replace the original 'video_face.py' file in this folder.
